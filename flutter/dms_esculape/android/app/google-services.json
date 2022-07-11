@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "453325630483",
+    "firebase_url": "https://dms-esculape.firebaseio.com",
+    "project_id": "dms-esculape",
+    "storage_bucket": "dms-esculape.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453325630483:android:1f2cc48512b6f0e2ac63e6",
+        "android_client_info": {
+          "package_name": "com.domisu.dms_esculape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453325630483-g1nfbe5qh7n6ee34k7oj1tlkdak8ktft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiv8gLSoY900ao4qYOVt-b9ymBM6Gq3nY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453325630483-g1nfbe5qh7n6ee34k7oj1tlkdak8ktft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

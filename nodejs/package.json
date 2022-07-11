@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "nodejs demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "server": "nodemon demo_express_ejs.js -e ejs,js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leduynhac/nodejs.git"
+  },
+  "author": "leduynhac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leduynhac/nodejs/issues"
+  },
+  "homepage": "https://github.com/leduynhac/nodejs#readme",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "reload": "^2.2.2"
+  }
+}

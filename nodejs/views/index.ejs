@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main HTML</title>
+</head>
+<body>
+    <h3>Learn EJS 1003</h3>
+    <h4>Today is <%=today%></h4>
+    <p>(<i>the value of today is passed from demo_express.ejs.js page via res.render(...)</i>)</p>
+    <p>Use &lt;%-%&gt;: <%-"<i><b>123</b></i>"%></p>
+    <p>Use &lt;%=%&gt;: <%="<i>abc</i>"%><br/></p>
+    <%let myValue = true;%>
+    <%if (myValue){%>
+        <h1>True</h1>
+    <%}else{%>
+        <h1>False</h1>
+    <%}%>
+    <%
+        const arrWords = [
+            { _id: 'abcd1', en: 'One', vn: 'Mot', isMemorized: true },
+            { _id: 'abcd2', en: 'Two', vn: 'Hai', isMemorized: false },
+            { _id: 'abcd3', en: 'Three', vn: 'Ba', isMemorized: false },
+            { _id: 'abcd4', en: 'Four', vn: 'Bon', isMemorized: true },
+        ];
+    %>
+    <%arrWords.forEach(row => {%>
+        
+        <div>
+            <h3 style="color: <%=row.isMemorized ? 'green':'red'%>"><%=row.en%></h3>
+            <p><%=row.vn%></p>
+        </div>
+        <%}); %>   
+</body>
+</html>
+<script src="reload/reload.js"></script>

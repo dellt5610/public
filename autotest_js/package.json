@@ -1,0 +1,20 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leduynhac/autotest_js.git",
+  "license": "MIT",
+  "scripts": {
+    "test": "nodemon --exec mocha --recursive",
+    "server": "nodemon src/main/js/index.js"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.0",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15"
+  }
+}
